@@ -12,4 +12,5 @@ decode = page.content.decode(encoding)				# decode page content in non human rea
 soup = BeautifulSoup(page.text, 'lxml')				# format page in a human readable form
 
 table = pd.read_html(decode, attrs = {'id': 'customers'})	# read table from html using pandas. Select table using id
+table = table[0]						# table is a list. Turn table into a pandas DataFrame
 
