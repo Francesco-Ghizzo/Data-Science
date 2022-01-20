@@ -1,11 +1,12 @@
 #library####
 library(tidyverse)
+library(janitor)
 library(ggpubr)
 
 #wrangling####
 
 
-read.csv2("Dati_Francesco_G.csv" ) %>% 
+read.csv2("Dati_Francesco_G.csv" ) %>%						#	use "read.csv2" if sep = ";". If sep = "," use "read.csv" instead 
   `colnames<-`(janitor::make_clean_names(colnames(.))) %>%
   separate(i_ca3digo_da_conta, c("X1", "X2", "X3", "X4", "X5"),
            sep = "\\.") %>% group_by(`X1`) %>%
