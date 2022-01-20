@@ -1,0 +1,24 @@
+﻿Código da Conta;Descrição da Conta;Trimestre Atual;Exercício Anterior
+1;Ativo Total;2.775.558;2.369.285
+1.01;Ativo Circulante;1.875.214;1.651.950
+1.01.01;Caixa e Equivalentes de Caixa;815.476;683.412
+1.01.03;Contas a Receber;258.104;206.005
+1.01.03.01;Clientes;258.104;206.005
+1.01.04;Estoques;629.601;617.289
+1.01.06;Tributos a Recuperar;92.690;80.862
+1.01.08;Outros Ativos Circulantes;79.343;64.382
+1.01.08.03;Outros;79.343;64.382
+1.01.08.03.01;Ativos financeiros;12.153;16.059
+1.01.08.03.03;Outras contas;53.490;39.511
+1.01.08.03.04;Instrumentos financeiros derivativos;13.700;8.812
+1.02;Ativo Não Circulante;900.344;717.335
+1.02.01;Ativo Realizável a Longo Prazo;104.944;90.941
+1.02.01.09;Créditos com Partes Relacionadas;12.773;9.730
+1.02.01.09.02;Créditos com Controladas;12.773;9.730
+1.02.01.10;Outros Ativos Não Circulantes;92.171;81.211
+1.02.01.10.03;Tributos a recuperar;90.374;80.006
+1.02.01.10.04;Instrumentos financeiros derivativos;893;0
+1.02.01.10.05;Outras contas a receber;904;1.205
+1.02.02;Investimentos;6.505;5.934
+1.02.03;Imobilizado;786.627;619.172
+1.02.04;Intangível;2.268;1.288
