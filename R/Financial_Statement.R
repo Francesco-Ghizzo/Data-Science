@@ -7,7 +7,7 @@
 ## library ##
 
 library(tidyverse)
-library(janitor)
+# library(janitor)
 
 
 ## wrangling ##
