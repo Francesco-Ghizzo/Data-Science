@@ -1,13 +1,11 @@
 ## install ##
 
 # install.packages("tidyverse")
-# install.packages("janitor")
 
 
 ## library ##
 
 library(tidyverse)
-# library(janitor)
 
 
 ## wrangling ##
