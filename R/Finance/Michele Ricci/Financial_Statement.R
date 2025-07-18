@@ -1,40 +1,28 @@
 #library####
 library(tidyverse)
 library(janitor)
-library(ggpubr)
 
 #wrangling####
 
+financial_statement <- read.csv2("Financial_Statement.csv")	%>%     #	use "read.csv2" if sep = ";". If sep = "," use "read.csv" instead 
+  janitor::clean_names()  
 
-read.csv2("Dati_Francesco_G.csv" ) %>%						#	use "read.csv2" if sep = ";". If sep = "," use "read.csv" instead 
-  `colnames<-`(janitor::make_clean_names(colnames(.))) %>%
-  separate(i_ca3digo_da_conta, c("X1", "X2", "X3", "X4", "X5"),
-           sep = "\\.") %>% group_by(`X1`) %>%
-  do(mutate(., `X1` = descri_a_a_o_da_conta[1])) %>%
-  ungroup() %>% filter(!is.na(`X2`)) %>% droplevels() %>%
-  group_by(`X2`) %>% 
-  do(mutate(., `X2` = descri_a_a_o_da_conta[1])) %>%
-  ungroup() %>% filter(!is.na(`X3`)) %>% droplevels() %>%
-  group_by(`X3`) %>% 
-  do(mutate(., `X3` = descri_a_a_o_da_conta[1])) %>%
-  ungroup() %>% group_by(`X4`) %>%
-  do(mutate(., `X4` = ifelse(is.na(`X4`), NA ,descri_a_a_o_da_conta[1]))) %>%
-  ungroup() %>% 
-  filter(is.na(`X4`) | `X4` != descri_a_a_o_da_conta) %>%
-  ungroup() %>% 
-  mutate(`X5` = ifelse(is.na(`X5`), NA, descri_a_a_o_da_conta),
-         descri_a_a_o_da_conta = NULL,
-         trimestre_atual = as.numeric(trimestre_atual),
-         exerc_a_cio_anterior = as.numeric(exerc_a_cio_anterior),
-         `X4` = ifelse(is.na(`X4`), `X3`, `X4`),
-         `X5` = ifelse(is.na(`X5`), `X4`, `X5`)) %>%
-  #arrange(`X2`) %>% edit()
-  #write.csv("results.csv)
-  ggbarplot(x = "X3", y = "trimestre_atual", facet.by = "X2",
-            orientation = "horizontal",
-            fill = "X4", position = position_stack()) +
-  theme_minimal() + grids() +
-  theme(axis.text.x = element_text(color = "black", angle = 90,
-                                   vjust = 0.5))
+tiers_df <- separate(data=financial_statement, col='codigo_da_conta', into=c("Tier1", "Tier2", "Tier3", "Tier4", "Tier5"), sep="\\.")
+
+grouped_1 <- dplyr::group_by(tiers_df, `Tier1`)
+tier1 <- dplyr::ungroup(dplyr::mutate(grouped_1, `Tier1`=descricao_da_conta[1]))
+tier1 <- dplyr::filter(tier1, !is.na(Tier2))
+
+grouped_2 <- dplyr::group_by(tier1, `Tier2`)
+tier2 <- dplyr::ungroup(dplyr::mutate(grouped_2, `Tier2`=descricao_da_conta[1]))
+tier2 <- dplyr::filter(tier2, !is.na(Tier3))
+
+grouped_3 <- dplyr::group_by(tier2, `Tier3`)
+tier3 <- dplyr::ungroup(dplyr::mutate(grouped_3, `Tier3`=descricao_da_conta[1]))
+tier3 <- dplyr::filter(tier3, !is.na(Tier4))
+
+grouped_4 <- dplyr::group_by(tier3, `Tier4`)
+tier4 <- dplyr::ungroup(dplyr::mutate(grouped_4, `Tier4`=descricao_da_conta[1]))
+tier4 <- dplyr::filter(tier4, !is.na(Tier5))
 
   
