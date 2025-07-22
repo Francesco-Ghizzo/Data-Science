@@ -1,8 +1,8 @@
-#library####
+##library##
 library(tidyverse)
 library(janitor)
 
-#wrangling####
+##wrangling##
 
 financial_statement <- read.csv2("Financial_Statement.csv")	%>%     #	use "read.csv2" if sep = ";". If sep = "," use "read.csv" instead 
   janitor::clean_names()  
@@ -24,5 +24,3 @@ tier3 <- dplyr::filter(tier3, !is.na(Tier4))
 grouped_4 <- dplyr::group_by(tier3, `Tier4`)
 tier4 <- dplyr::ungroup(dplyr::mutate(grouped_4, `Tier4`=descricao_da_conta[1]))
 tier4 <- dplyr::filter(tier4, !is.na(Tier5))
-
-  
