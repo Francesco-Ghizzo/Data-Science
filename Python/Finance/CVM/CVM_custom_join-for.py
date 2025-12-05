@@ -13,8 +13,6 @@ import numpy as np
 
 import sys
 
-pd.set_option('display.max_rows', 10)
-
 
 # # <h2>Constants</h2>
 
