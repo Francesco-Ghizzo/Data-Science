@@ -11,6 +11,8 @@
 import pandas as pd
 import numpy as np
 
+import sys
+
 pd.set_option('display.max_rows', 10)
 
 
@@ -26,7 +28,7 @@ DS_CONTA = 'DS_CONTA'
 # In[14]:
 
 
-file_name = 'dfp_cia_aberta_BPA_con_2020.csv'
+file_name = sys.argv[1]
 output_name = 'output.csv'
 
 
@@ -64,9 +66,6 @@ df.reset_index(inplace=True, drop=True)
 # In[18]:
 
 
-df
-
-
 # # <h2>Wrangling</h2>
 
 # ## <h3>Number of Steps</h3>
@@ -94,15 +93,12 @@ num_levels = max(cd_conta_len)
 # In[20]:
 
 
-num_levels
-
-
 # ## <h3>For Loop</h3>
 
 # In[21]:
 
 
-rounds = range(1, num_levels+1)
+range_rounds = range(1, num_levels+1)
 
 for round in range_rounds:
 
@@ -213,10 +209,4 @@ for round in range_rounds:
             df.loc[idx, CD_CONTA] = df.loc[idx, CD_CONTA] + '.00'
 
     df.reset_index(inplace=True, drop=True)
-
-
-# In[22]:
-
-
-df
 

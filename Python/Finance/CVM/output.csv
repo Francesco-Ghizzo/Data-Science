@@ -1,0 +1,55 @@
+CD_CONTA,DS_CONTA_1,DS_CONTA_2,DS_CONTA_3,DS_CONTA_4,DS_CONTA_5,VL_CONTA
+1.01.01.00.00,Ativo Total,Ativo Circulante,Caixa e Equivalentes de Caixa,Caixa e Equivalentes de Caixa,Caixa e Equivalentes de Caixa,1728413.0
+1.01.02.01.01,Ativo Total,Ativo Circulante,Aplicações Financeiras,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,Títulos para Negociação,0.0
+1.01.02.01.02,Ativo Total,Ativo Circulante,Aplicações Financeiras,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,Títulos Designados a Valor Justo,0.0
+1.01.02.02.00,Ativo Total,Ativo Circulante,Aplicações Financeiras,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0
+1.01.02.03.00,Ativo Total,Ativo Circulante,Aplicações Financeiras,Aplicações Financeiras Avaliadas ao Custo Amortizado,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0
+1.01.03.01.01,Ativo Total,Ativo Circulante,Contas a Receber,Clientes,Contas a receber de clientes,1229995.0
+1.01.03.01.02,Ativo Total,Ativo Circulante,Contas a Receber,Clientes,Contas a receber de partes relacionadas,9320.0
+1.01.03.02.01,Ativo Total,Ativo Circulante,Contas a Receber,Outras Contas a Receber,Valores a receber,79428.0
+1.01.04.00.00,Ativo Total,Ativo Circulante,Estoques,Estoques,Estoques,924743.0
+1.01.05.00.00,Ativo Total,Ativo Circulante,Ativos Biológicos,Ativos Biológicos,Ativos Biológicos,0.0
+1.01.06.01.00,Ativo Total,Ativo Circulante,Tributos a Recuperar,Tributos Correntes a Recuperar,Tributos Correntes a Recuperar,176456.0
+1.01.07.00.00,Ativo Total,Ativo Circulante,Despesas Antecipadas,Despesas Antecipadas,Despesas Antecipadas,0.0
+1.01.08.01.00,Ativo Total,Ativo Circulante,Outros Ativos Circulantes,Ativos Não-Correntes a Venda,Ativos Não-Correntes a Venda,47884.0
+1.01.08.02.00,Ativo Total,Ativo Circulante,Outros Ativos Circulantes,Ativos de Operações Descontinuadas,Ativos de Operações Descontinuadas,0.0
+1.01.08.03.00,Ativo Total,Ativo Circulante,Outros Ativos Circulantes,Outros,Outros,23783.0
+1.02.01.01.01,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Aplicações Financeiras Avaliadas a Valor Justo através do Resultado,Títulos Designados a Valor Justo,0.0
+1.02.01.02.00,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,Aplicações Financeiras Avaliadas a Valor Justo através de Outros Resultados Abrangentes,0.0
+1.02.01.03.00,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Aplicações Financeiras Avaliadas ao Custo Amortizado,Aplicações Financeiras Avaliadas ao Custo Amortizado,0.0
+1.02.01.04.01,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Contas a Receber,Clientes,0.0
+1.02.01.04.02,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Contas a Receber,Outras Contas a Receber,124569.0
+1.02.01.05.00,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Estoques,Estoques,0.0
+1.02.01.06.00,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Ativos Biológicos,Ativos Biológicos,1142866.0
+1.02.01.07.01,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Tributos Diferidos,Imposto de Renda e Contribuição Social Diferidos,285618.0
+1.02.01.08.00,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Despesas Antecipadas,Despesas Antecipadas,0.0
+1.02.01.09.01,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Créditos com Partes Relacionadas,Créditos com Coligadas,0.0
+1.02.01.09.03,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Créditos com Partes Relacionadas,Créditos com Controladores,0.0
+1.02.01.09.04,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Créditos com Partes Relacionadas,Créditos com Outras Partes Relacionadas,0.0
+1.02.01.10.01,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Outros Ativos Não Circulantes,Ativos Não-Correntes a Venda,0.0
+1.02.01.10.02,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Outros Ativos Não Circulantes,Ativos de Operações Descontinuadas,0.0
+1.02.01.10.03,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Outros Ativos Não Circulantes,Depósitos vinculados,66706.0
+1.02.01.10.04,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Outros Ativos Não Circulantes,Créditos com plano de previdência,95674.0
+1.02.01.10.05,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Outros Ativos Não Circulantes,Impostos e contribuições a recuperar,17732.0
+1.02.01.10.06,Ativo Total,Ativo Não Circulante,Ativo Realizável a Longo Prazo,Outros Ativos Não Circulantes,Ativos de direito de uso,338471.0
+1.02.02.01.01,Ativo Total,Ativo Não Circulante,Investimentos,Participações Societárias,Participações em Coligadas,958556.0
+1.02.02.01.04,Ativo Total,Ativo Não Circulante,Investimentos,Participações Societárias,Participações em Controladas em Conjunto,0.0
+1.02.02.01.05,Ativo Total,Ativo Não Circulante,Investimentos,Participações Societárias,Outros Investimentos,4881.0
+1.02.02.02.00,Ativo Total,Ativo Não Circulante,Investimentos,Propriedades para Investimento,Propriedades para Investimento,0.0
+1.02.03.01.00,Ativo Total,Ativo Não Circulante,Imobilizado,Imobilizado em Operação,Imobilizado em Operação,3377237.0
+1.02.03.02.00,Ativo Total,Ativo Não Circulante,Imobilizado,Direito de Uso em Arrendamento,Direito de Uso em Arrendamento,0.0
+1.02.03.03.00,Ativo Total,Ativo Não Circulante,Imobilizado,Imobilizado em Andamento,Imobilizado em Andamento,135404.0
+1.02.04.01.01,Ativo Total,Ativo Não Circulante,Intangível,Intangíveis,Contrato de Concessão,0.0
+1.02.04.01.02,Ativo Total,Ativo Não Circulante,Intangível,Intangíveis,Carteira de Clientes,108270.0
+1.02.04.01.03,Ativo Total,Ativo Não Circulante,Intangível,Intangíveis,"Softwares, marcas e patentes",298358.0
+1.02.04.02.01,Ativo Total,Ativo Não Circulante,Intangível,Goodwill,Goodwill na aquisição da Satipel em 2009,45503.0
+1.02.04.02.02,Ativo Total,Ativo Não Circulante,Intangível,Goodwill,Goodwill na aquisição Cerâmica Monte Carlo em 2008,0.0
+1.02.04.02.03,Ativo Total,Ativo Não Circulante,Intangível,Goodwill,Goodwill na aquisição da Deca Nordeste em 2011,0.0
+1.02.04.02.04,Ativo Total,Ativo Não Circulante,Intangível,Goodwill,Goodwill na aquisição da Ind. Metalúrgica Jacareí em 2012,2402.0
+1.02.04.02.05,Ativo Total,Ativo Não Circulante,Intangível,Goodwill,Goodwill na aquisição da Thermosystem em 2013,0.0
+1.02.04.02.06,Ativo Total,Ativo Não Circulante,Intangível,Goodwill,Goodwill na aquisição da DuchaCorona em 2015,0.0
+1.02.04.02.07,Ativo Total,Ativo Não Circulante,Intangível,Goodwill,Goodwill na aquisição da Caetex Florestal,8767.0
+1.02.04.02.08,Ativo Total,Ativo Não Circulante,Intangível,Goodwill,Goodwill na aquisição da Cerâmica Urussanga em 2017,92944.0
+1.02.04.02.09,Ativo Total,Ativo Não Circulante,Intangível,Goodwill,Goodwill na aquisição da Massima Revestimentos em 2017,6110.0
+1.02.04.02.10,Ativo Total,Ativo Não Circulante,Intangível,Goodwill,Goodwill na aquisição da Cecrisa Revestimentos em 2019,168430.0
+1.02.04.02.11,Ativo Total,Ativo Não Circulante,Intangível,Goodwill,Goodwill Viva Decora,0.0
